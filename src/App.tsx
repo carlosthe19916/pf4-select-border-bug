@@ -3,7 +3,7 @@ import { Select, SelectOption } from "@patternfly/react-core";
 
 function App() {
   return (
-    <div>
+    <div style={{ padding: 20 }}>
       <Select
         isOpen={false}
         onToggle={() => {}}
